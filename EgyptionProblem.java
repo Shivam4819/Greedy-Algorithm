@@ -26,7 +26,7 @@ public class EgyptionProblem {
         }
         if(dr%nr==0){
             System.out.println("1/"+dr/nr);
-            return;
+            return; 
         }
         if(nr>dr){
             System.out.print(nr / dr + " + "); 

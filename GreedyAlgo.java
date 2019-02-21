@@ -17,10 +17,13 @@ public class GreedyAlgo {
     public static void main(String[] args) {
         // TODO code application logic here
         ActivitySelection selection=new ActivitySelection();
-        selection.selectActivity();
+      //  selection.selectActivity();
         
         EgyptionProblem egypt=new EgyptionProblem();
-        egypt.problem();
+      //  egypt.problem();
+        
+        JobSequencing job=new JobSequencing();
+        job.schedulejob();
     }
     
 }
