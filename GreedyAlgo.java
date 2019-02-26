@@ -33,6 +33,9 @@ public class GreedyAlgo {
         
         FittingSelves selves=new FittingSelves();
         selves.selvesFit();
+        
+        PoliceThief police=new PoliceThief();
+        police.catchThief();
     }
     
 }
