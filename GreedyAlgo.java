@@ -29,13 +29,16 @@ public class GreedyAlgo {
        // minimum.lossMinimum();
         
         AssignMiceToHoles mice=new AssignMiceToHoles();
-        mice.assignHoles();
+      //  mice.assignHoles();
         
         FittingSelves selves=new FittingSelves();
-        selves.selvesFit();
+       // selves.selvesFit();
         
         PoliceThief police=new PoliceThief();
-        police.catchThief();
+       // police.catchThief();
+        
+        WaterConnection water=new WaterConnection();
+        water.makeConnection();
     }
     
 }
