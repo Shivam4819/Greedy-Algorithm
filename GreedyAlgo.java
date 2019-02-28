@@ -38,7 +38,10 @@ public class GreedyAlgo {
        // police.catchThief();
         
         WaterConnection water=new WaterConnection();
-        water.makeConnection();
+       // water.makeConnection();
+    
+       HuffmanCoding huffman=new HuffmanCoding();
+       huffman.createTree();
     }
     
 }
