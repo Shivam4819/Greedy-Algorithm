@@ -29,7 +29,7 @@ public class HuffmanCoding {
         int n=6;
         char arr[]={'a', 'b', 'c', 'd', 'e', 'f' };
         int frequency[]={5, 9, 12, 13, 16, 45 };
-        PriorityQueue q=new PriorityQueue();
+        PriorityQueue<CreateNode> q=new PriorityQueue<CreateNode>(n, new MyComparator());
         
         for(int i=0;i<n;i++){
             CreateNode node=new CreateNode();

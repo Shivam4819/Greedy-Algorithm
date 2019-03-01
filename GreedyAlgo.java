@@ -42,6 +42,9 @@ public class GreedyAlgo {
     
         HuffmanCoding huffman=new HuffmanCoding();
         huffman.createTree();        
+        
+        EfficientHuffmanCoding efficientWay=new EfficientHuffmanCoding();
+        efficientWay.huffmanCoding();
     }
     
 }
